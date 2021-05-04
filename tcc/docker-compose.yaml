@@ -1,0 +1,35 @@
+version : "3"
+
+services:
+  leaninception:
+    image: tcc #Nome da imagem Docker a qual o container deve se basear
+    build: .  #Local onde está a imagem. Nesse caso no mesmo diretorio
+    volumes:
+      - "./servicos/leaninception:/servicos"
+      - "./templates/leaninception:/templates"
+    command: python3 servico_lean.py
+    expose:
+      - "5000"
+    networks:
+      agis:
+        ipv4_address: "172.28.1.1"
+
+  planning:
+    image: tcc
+    build: .
+    volumes:
+      - "./servicos/planning:/servicos"
+      - "./templates/planning:/templates"
+    command: python3 servico_planning.py
+    expose:
+      - "5000"
+    networks:
+      agis:
+        ipv4_address: "172.28.1.2"
+
+networks:
+  agis:
+    ipam:
+      driver: default
+      config:
+        - subnet: "172.28.1.0/16"

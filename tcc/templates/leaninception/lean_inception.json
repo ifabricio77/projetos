@@ -1,0 +1,30 @@
+{
+    "lean_inseption":
+        {
+                "descricao":"É um processo produtivo e colaborativo que visa estabelecer uma relação de uniformidade entre os membros da equipe do projeto",
+                "objetivo":"Definir o escopo do projeto. Fazer a equipe entender o que deve ser desenvolvido e o fluxo de trabalho para isso. Estabelecer o que vai ser aplicado no Produto Minimo Viável",
+                "envolvidos":["Scrum Master","Product Owner", "Dev Team", "Stackholders"],
+                "quem_conduz":["Product Owner","Scrum Master"],
+                "dinamica":"Os envolvidos se reunem durante uma semana numa war room-Sala de Guerra, onde em cada dia devem ser entregues uma ou mais tarefas",
+                "duração":"01 semana",
+                "tarefas":[
+                        {"nome":"introducao","descricao":"Apresentar a dinâmica da inception, a agenda da semana e a idéia principal do projeto", "tempo":"01 Hora"},
+                        {"nome":"kick-off","descricao":"Os Stakeholder apresentam o esboço inicial do projeto, bem como suas motivações", "tempo":"01 hora"},
+                        {"nome":"Documento de visao","descricao":"Documento que deve abordar os principais aspectos do projeto, tais como: modelo de negócio, diferenciais do produto, análise da concorrẽncia, entre outros", "tempo":"02 Horas"},
+                        {"nome":"objetivos","descricao":"Definir as principais metas do projeto", "tempo":"03 Horas"},
+                        {"nome":"personas","descricao":"Definir quem é o publico alvo, quem vai utilizar, a quem o projeto vai beneficiar", "tempo":"04 Horas"},
+                        {"nome":"features","descricao":"Definir as funcionalidades que vão ser implementadas para atender as necessidades das personas", "tempo":"08 Horas"},
+                        {"nome":"jornada","descricao":"Definir a jornada do cliente. Como o cliente vai fazer uso das funcionaliaddes para concluir uma tarefa. Determinar se vai sr desenvolvido um sistema web, um sistema operacional, um aplicativo móbile, ou uma interface.", "tempo":"04 Horas"},
+                        {"nome":"planejamento de entrega","descricao":"Determinar de forma abrangente quais módulos fazem parte do projeto, e quando e como vão ser entregues", "tempo":"04 Horas"},
+                        {"nome":"showcase","descricao":"Apresentação do projeto aos Stakeholders", "tempo":"04 Horas"}
+                ],
+                "frequencia":"Única - Início do projeto",
+                "ferramentas":[
+                        {"nome":"Agenda inception", "forma_de_utilizacao":"","link":""},
+                        {"nome":"Quadro branco", "forma_de_utilizacao":"","link":""},
+                        {"nome":"post-it", "forma_de_utilizacao":"","link":""}
+                ],
+                "entregaveis":"Estratégia incremental do MVP. um plano de release do produto"
+        }
+    
+}

@@ -1,0 +1,24 @@
+{
+    "planning":[
+        {
+            "descricao":"Define o trabalho que vai sr realizado na Sprint de acordo com o objetivo traçado para esse ciclo",
+            "objetivo":"Determinar quais tarefas serão realizadas, e também como esas tarefas serão entregues. outro objetivo é determinar a meta da Sprint",
+            "envolvidos":["Product Owner","Scrum Master", "Dev Team"],
+            "quem_conduz":"Product Owner",
+            "dinamica":"Os membros discutem quais itens do backlog podem entrar na sprint e refinam o entendimento sobre cada um deles visando aumentar a compreensão da equipe. Em seguida estimam as terefas descritas para realização do item escolhido",
+            "duração":"4h a 8h",
+            "tarefas":[
+                {"nome":"Definição de Meta", "descricao":"O membros definem qual a meta da próxima Sprint"},
+                {"nome":"Escolha no Backlog", "descricao":"Com base no valor que se pretende entregar a equipe escolhe os itens do bcklog"},
+                {"nome":"Refinamento", "descricao":"São definidas a tarefas necessárias para a entrega do item do backlog"},
+                {"nome":"Estimativa", "descricao":"Os membros realizção a estimativa de esforço necessário para conclusão das terefas"}
+            ],
+            "frequencia":"Uma vez a cada nova Sprint",
+            "ferramentas":[
+                {"nome":"Planning Poker", "forma_de_utilizacao":"","link":""},
+                {"nome":"Post-it", "forma_de_utilizacao":"","link":""}
+            ],
+            "entregaveis":"Sprint Backlog"
+        }
+    ]
+}
